@@ -22,38 +22,33 @@ Unity上でステージのレイアウトや検証を行うための
 - アンプ
 - 幕（バックドロップ）
 
-ライブステージのレイアウト検討や、  
-仮組み・検証用途を想定しています。
+ライブステージのレイアウト検討や、仮組み・検証用途を想定しています。
 
 ---
 
 ### トラス配置ツール（試作）
 
-トラスを効率的に配置するための  
-ビルダーツールを同梱しています。
+トラスを効率的に配置するためのビルダーツールを同梱しています。
 
-現在は試験的な実装であり、  
-実際の運用を通して調整・改善を行っています。
+現在は試験的な実装であり、実際の運用を通して調整・改善を行っています。
 
 ---
 
 ## 開発状況
 
-本パッケージは現在整理中であり、  
-構成や機能は今後変更される可能性があります。
+本パッケージは現在整理中であり、構成や機能は今後変更される可能性があります。
 
 ---
 
-## ライセンス
+## インストール
 
-本パッケージは **Unlicense** で公開されています。
+### manifest.json に追加
 
-- https://unlicense.org/
+`Packages/manifest.json` の `dependencies` に以下を追加してください。
 
-商用利用・改変・再配布など、用途に制限はありません。
-
-```csharp
-// VLiveKit is all Unlicense.
-// unlicense: https://unlicense.org/
-// this comment & namespace can be removed.
-// last update: 20##/##/##
+```json
+{
+  "dependencies": {
+    "com.toshi.vlivekit.stagebuilder": "https://github.com/toshi-kundesu/VLiveKit_StageBuilder.git?path=/Assets/toshi.VLiveKit/StageBuilder#main"
+  }
+}
