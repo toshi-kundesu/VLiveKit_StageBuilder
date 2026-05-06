@@ -1,9 +1,7 @@
 {
   "name": "toshi.VLiveKit.StageBuilder",
   "rootNamespace": "toshi.VLiveKit.StageBuilder",
-  "references": [
-    "Unity.Cinemachine"
-  ],
+  "references": [],
   "includePlatforms": [],
   "excludePlatforms": [],
   "allowUnsafeCode": false,
