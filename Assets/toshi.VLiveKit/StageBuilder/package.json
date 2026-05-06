@@ -14,6 +14,6 @@
   "license": "Unlicense",
   "dependencies": {
     "com.unity.cinemachine": "2.9.7",
-    "com.toshi.vlivekit.testassetscontainer": "0.0.2"
+    "com.toshi.vlivekit.testassetscontainer": "0.0.13"
   }
 }
