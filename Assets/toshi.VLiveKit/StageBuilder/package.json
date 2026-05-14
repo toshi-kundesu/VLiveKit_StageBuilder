@@ -1,8 +1,8 @@
 ﻿{
     "name":  "com.toshi.vlivekit.stagebuilder",
     "displayName":  "VLiveKit StageBuilder",
-    "version":  "0.1.1",
-    "unity":  "2022.3",
+    "version": "0.1.4",
+    "unity": "6000.3",
     "description":  "VLiveKit package.",
     "author":  {
                    "name":  "toshi"
@@ -21,6 +21,6 @@
                 ],
     "dependencies":  {
                          "com.unity.cinemachine":  "2.9.7",
-                         "com.toshi.vlivekit.testassetscontainer":  "0.1.2"
+                         "com.toshi.vlivekit.testassetscontainer":  "0.1.5"
                      }
 }
